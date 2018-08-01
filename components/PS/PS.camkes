@@ -1,0 +1,7 @@
+component PS {
+  control;
+  dataport Buf(4096) data;
+  consumes DoPrint do_print;
+  emits DonePrinting done_printing;
+}
+	
